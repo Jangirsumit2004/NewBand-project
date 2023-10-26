@@ -1,0 +1,277 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+.header
+{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header nav
+{
+    display: flex;
+
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 40px;
+    
+}
+.searchbox
+{
+    height: 20px;
+    min-width: 100px;
+    margin-top: 10px;
+    margin-right: 60px;
+    background-color: grey;
+    padding: 5px;
+    display: flex;
+}
+button
+{
+    background-color:black;
+    text-transform: capitalize;
+    margin-left: 10px;
+    color: white;
+}
+.picture
+{
+    height: 800px;
+    width: 100%;
+    background-image: url(chicago.jpg);
+    background-size: cover;
+    display: flex;
+}
+.picture pre
+{
+    color: white;
+    text-align: center;
+    margin-top: 750px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.theband
+{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+.content
+{
+    height: 250px;
+    width: 80%;
+    /* border: 1px solid; */
+    margin-left: 200px;
+    margin-top: 30px;
+    text-align: center;
+}
+.content h1
+{
+    color: rgba(150, 136, 136, 1   );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.content h4{
+    font-size: 20px;
+}
+.contentp
+{
+    font-size: 25px;
+}
+.images
+{
+    height: 350px;
+    width: 80%;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+.images1
+{
+    height: 300px;
+    width: 250px;
+    /* border: 1px solid; */
+   
+    
+    
+
+}
+.images1 h4{
+    font-size: 30px;
+    text-align: center;
+} 
+.images1 img
+{
+    margin-top: 15px;
+}
+.tourdates
+{
+    height: 900px;
+    width: 100%;
+    background-color: #000;
+    
+    
+}
+.tourheader
+{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    /* background-color: white; */
+    margin-left: 150px;
+    padding: 20px;
+
+}
+.tourheader h2
+{
+    font-size: 45px;
+    color: white;
+    
+}
+.tourheader h5{
+    font-size: 30px;
+    color: white;
+}
+.headerdates
+{
+    height: 200px;
+    width: 70%;
+    display: block;
+    
+}
+.headerdates p
+{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 400px;
+    border: 1px solid;
+}
+
+.tourimage
+{
+    height: 500px;
+    width: 80%;
+    /*   */
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tourimage1
+{
+    height: 450px;
+    width: 250px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+.tourimage1 img 
+{
+    height: 250px;
+    width: 250px;
+}
+.tourimage1 h3
+{
+    font-size: 30px;
+    color: white;
+}
+.tourimage1 h4
+{
+    font-size: 25px;
+    color: white;
+}
+.tourimage1 p
+{
+    font-size: 20px;
+    color:white
+}
+.btn 
+{
+    background-color: white;
+    color:black;
+    padding: 5px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.contact
+{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.contact1
+{
+    height: 200px;
+    width: 80%;
+    text-align: center;
+    margin-left: 200px;
+
+}
+.contact1 h3
+{
+    font-size: 40px;
+}
+.contact1 h5
+{
+    font-size: 30px;
+}
+.divcont
+{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.leftdivcont
+{
+    height: 200px;
+    width: 50%;
+    margin-left: 350px;
+}
+.leftdivcont p
+{
+    text-align: left;
+    font-size: 20px;
+}
+.rightdivcont
+{
+    height: 200px;
+    width:50% ;
+
+} 
+.rightdivcont form input
+{
+    border: 1px solid;
+}
+.footer
+{
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+}
+.footer h1 
+{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: 80px ;
+}
